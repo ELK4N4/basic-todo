@@ -91,9 +91,7 @@ $(document).ready(function(){
         if(!($(".filter-btn").attr('class')).includes('open')) {
             $(".filter-btn").toggleClass('scale');
         }
-    }, 1000);
-    setInterval(function(){
-         $(".github-btn a").toggleClass('scale');
+        $(".github-btn a").toggleClass('scale');
     }, 1000);
 
     importTodos();
