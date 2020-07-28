@@ -1,0 +1,41 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  
+  <title>Todo List</title>
+  <!--CSS-->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="logo">Todo List</h1>
+
+    <div class="filter-container">
+        <input class="filter-input" autocomplete="off" type="text" placeholder="חיפוש" name="item" required>
+
+        <div class="filter-btn"><i class="fas fa-search"></i></div> 
+
+    </div>
+
+
+    <form class="input-container" action="">
+        <input class="item-input" autocomplete="off" type="text" placeholder="משימה חדשה..." name="item" required>
+        <button type="submit" class="button" id="add"><i class="fas fa-plus"></i></button>
+    </form>
+
+
+    
+    <ul class="todos-container">
+        
+    </ul>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/66d330ff96.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
