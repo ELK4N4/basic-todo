@@ -15,6 +15,17 @@ body {
     min-height: 87vh;
 }
 
+.github-btn a {
+    position: absolute;
+    top: 25px;
+    left: 35px;
+    color: inherit;
+    text-decoration: inherit;
+    font-size: 50px;
+    color: white;
+    transition: transform 1s ease-in-out;
+}
+
 ::placeholder {
     color: rgb(0, 0, 0);
     opacity: .7;
@@ -121,7 +132,7 @@ input {
     color: black;
 }
 
-.filter-btn.scale {
+.scale {
     transform: scale(1.3);
 }
 
